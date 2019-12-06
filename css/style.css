@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 125%;
+  margin: 0;
+  background-color: #f6f6f6;
+  background: rgb(246, 246, 246);
+  background: linear-gradient(180deg, rgba(246, 246, 246, 1) 0%, rgba(225, 230, 250, 1) 100%);
+}
+
+.clearFix {
+  clear: both;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+nav{
+  text-align: center;
+}
+.main-nav ul li {
+  display: inline-block;
+}
+nav li {
+  padding: 1.8rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+ul{
+  margin: 0;
+}
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #113A83;
+  font-size: 2.4rem;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a, a:hover, a:visited, a:focus, a:active {
+  color: #276FBF;
+}
+
+header, article {
+  padding: 1.4rem 1rem;
+}
+
+header {
+  text-align: center;
+  background-color: #D3DBE8;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 30px !important;
+  background-image: url("../images/greek-vase.png");
+  background-position: center;
+}
+
+article, nav {
+  background-color: #FFFFFF;
+}
+
+footer {
+  background-color: #081B3C;
+}
+
+aside {
+  width: 30%;
+}
+
+nav, header, article {
+  margin-bottom: 1.5rem;
+}
+
+header img {
+  height: 12rem;
+  border-radius: 50%;
+}
+
+section img {
+  width: 11.3rem;
+  float: right;
+}
+
+aside, section {
+  float: left;
+}
+
+aside {
+  margin-left: 2%;
+}
+
+section {
+  width: 68%;
+}
+
+.shadow-light {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}

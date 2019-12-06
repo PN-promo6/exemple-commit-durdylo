@@ -1,0 +1,99 @@
+/* Smartphones */
+@media (max-device-width:767px)  {
+  *{
+    box-sizing: border-box;
+  }
+  .container , section , aside{
+    width: 100%;
+  }
+  body{
+    font-size: 90%;
+  }
+  .container{
+    padding: 0px 5px;
+  }
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  nav li{
+    padding: 5px;
+  }
+  aside{
+    margin:0px;
+  }
+  section img{
+    display: none;
+  }
+  h1{
+    font-size: 2.4rem;
+  }
+  h2{
+    font-size: 1.92rem;
+  }
+  h3{
+    font-size: 1.44rem;
+  }
+  h4{
+    font-size: 1.3rem;
+  }
+  h5{
+    font-size: 1.04rem;
+  }
+  h6{
+    font-size: 0.88rem;
+  }
+  footer ul {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+/* @media (min-device-width:767px max-device-width:1167px ) {
+  *{
+    box-sizing: border-box;
+  }
+  .container , section , aside{
+    width: 100%;
+  }
+  body{
+    font-size: 90%;
+  }
+  .container{
+    padding: 0px 5px;
+  }
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  nav li{
+    padding: 5px;
+  }
+  aside{
+    margin:0px;
+  }
+  section img{
+    display: none;
+  }
+  h1{
+    font-size: 2.4rem;
+  }
+  h2{
+    font-size: 1.92rem;
+  }
+  h3{
+    font-size: 1.44rem;
+  }
+  h4{
+    font-size: 1.3rem;
+  }
+  h5{
+    font-size: 1.04rem;
+  }
+  h6{
+    font-size: 0.88rem;
+  }
+  footer ul {
+    padding: 0px;
+    margin: 0px;
+  }
+} */
